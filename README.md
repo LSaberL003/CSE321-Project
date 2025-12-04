@@ -26,7 +26,7 @@ A smart wearable prototype designed to detect falls for the elderly or lone work
 
   Description: The current, polished version used for the final demo.
 
-  Logic: Implements a Finite State Machine (FSM):
+  Logic: Implements a Finite State Machine (FSM).
 
     Monitor: Waits for high impact (>1.8G).
 
