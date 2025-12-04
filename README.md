@@ -24,21 +24,21 @@ A smart wearable prototype designed to detect falls for the elderly or lone work
 
 ### 2. sketch-Loop-V2.ino (Final / Optimized)
 
-  Description: The current, polished version used for the final demo.
+  **Description**: The current, polished version used for the final demo.
 
-  Logic: Implements a Finite State Machine (FSM).
+  **Logic**: Implements a Finite State Machine (FSM).
 
-    Monitor: Waits for high impact (>1.8G).
+    **Monitor**: Waits for high impact (>1.8G).
 
-    Analyze: If impact occurs, enters a 5-second judging window to monitor subsequent motion.
+    **Analyze**: If impact occurs, enters a 5-second judging window to monitor subsequent motion.
 
-    Decision:
+    **Decision**:
 
       If substantial motion is detected (user stands up/walks) -> False Alarm.
 
       If no/little motion is detected (user is still) -> Fall Confirmed -> Alarm.
 
-  Optimization: Removed blocking delay() calls, optimized I2C speed to 400kHz, and throttled display refresh rate for system stability.
+  **Optimization**: Removed blocking delay() calls, optimized I2C speed to 400kHz, and throttled display refresh rate for system stability.
 
 ## Technical Challenges: The FreeRTOS Attempt
 
