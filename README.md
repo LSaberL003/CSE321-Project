@@ -1,8 +1,12 @@
 # CSE321-Project
 RTOS failed to use on Arduino Uno, keep using Loop()
 
+sketch-Loop-V1.ino just for code backup.
+sketch-Loop-V1.ino will alarm after detecting 1.8 G.
 
 
+sketch-Loop-V2.ino is 
+V2 optimizes monitoring logic and extends the monitoring window period to prevent false triggers from vigorous physical activity.
 
 
 
