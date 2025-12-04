@@ -1,4 +1,11 @@
 # CSE321-Project
+RTOS failed to use on Arduino Uno, keep using Loop()
+
+
+
+
+
+
 
 RTOS failed to use on Arduino Uno
 RAM is too small, only 2KB.
