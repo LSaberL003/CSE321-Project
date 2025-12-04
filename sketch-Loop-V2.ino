@@ -34,8 +34,8 @@ const int PIN_BUZZER = 8;
 const int PIN_BUTTON = 2;
 
 // ---- Fall Detection Parameters ----
-const float IMPACT_THRESHOLD_G    = 1.8f;  // Trigger threshold
-const float STABILITY_THRESHOLD_G = 1.2f;  // Motion threshold
+const float IMPACT_THRESHOLD_G    = 2.0f;  // Trigger threshold
+const float STABILITY_THRESHOLD_G = 1.3f;  // Motion threshold
 const unsigned long JUDGE_WINDOW_MS = 5000UL; // Stability check window (5s)
 const unsigned long LONG_PRESS_MS   = 2000UL; // Button hold time to reset
 const int REQUIRED_ACTIVE_SECONDS   = 3;      // Motion required in X distinct seconds to cancel alarm
