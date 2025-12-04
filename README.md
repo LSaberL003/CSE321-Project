@@ -11,6 +11,7 @@ V2 optimizes monitoring logic and extends the monitoring window period to preven
 
 
 
+
 RTOS failed to use on Arduino Uno
 RAM is too small, only 2KB.
 will keep reset when it out of RAM
