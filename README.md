@@ -66,7 +66,7 @@ One of the major challenges encountered during development was the memory limita
   As seen in the debug logs below, the system constantly resets after initializing the display, or freezes with minimal free RAM.
 
 
-    ![9c0558d29a25bcb8a5baf1bcc3a0db16](https://github.com/user-attachments/assets/412d5523-b7a0-4f9d-a63b-88a072acb555)
+  ![9c0558d29a25bcb8a5baf1bcc3a0db16](https://github.com/user-attachments/assets/412d5523-b7a0-4f9d-a63b-88a072acb555)
 
 ### The Solution
 
