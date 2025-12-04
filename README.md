@@ -34,9 +34,9 @@ A smart wearable prototype designed to detect falls for the elderly or lone work
 
   3. **Decision**:
 
-  a. If substantial motion is detected (user stands up/walks) -> False Alarm.
+    a. If substantial motion is detected (user stands up/walks) -> False Alarm.
 
-  b. If no/little motion is detected (user is still) -> Fall Confirmed -> Alarm.
+    b. If no/little motion is detected (user is still) -> Fall Confirmed -> Alarm.
 
   **Optimization**: Removed blocking delay() calls, optimized I2C speed to 400kHz, and throttled display refresh rate for system stability.
 
