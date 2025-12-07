@@ -42,7 +42,7 @@ A smart wearable prototype designed to detect falls for the elderly or lone work
 
 ## Technical Challenges: The FreeRTOS Attempt
 
-  ### **"Why I switched from FreeRTOS back to Loop Architecture"
+  ### **"Why I switched from FreeRTOS back to Loop Architecture."
 
 One of the major challenges encountered during development was the memory limitation of the Arduino Uno when attempting to implement a Real-Time Operating System (RTOS).
 
